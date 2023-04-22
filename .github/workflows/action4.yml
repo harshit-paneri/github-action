@@ -1,0 +1,7 @@
+name: script flow
+jobs: 
+  scrit-test:
+    steps: 
+      - name: Run script bash
+        run:  ./gtihub/script.sh
+        shell: bash
