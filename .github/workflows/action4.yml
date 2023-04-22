@@ -1,6 +1,7 @@
 name: script flow
 on: [push]
 jobs: 
+  runs-on: ubuntu-latest
   scrit-test:
     steps: 
       - name: Run script bash
