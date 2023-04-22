@@ -1,9 +1,11 @@
 name: script flow
 on: [push]
 jobs: 
-  runs-on: ubuntu-latest
   scrit-test:
+    runs-on: ubuntu-latest
     steps: 
       - name: Run script bash
         run:  ./gtihub/script.sh
         shell: bash
+  
+  
