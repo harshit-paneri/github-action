@@ -1,1 +1,1 @@
-echo "Hey Dear!!!✨"
+echo "Hey Dear!!!"

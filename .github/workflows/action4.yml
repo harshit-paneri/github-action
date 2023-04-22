@@ -1,4 +1,5 @@
 name: script flow
+on: [push]
 jobs: 
   scrit-test:
     steps: 
